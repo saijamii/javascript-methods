@@ -83,7 +83,7 @@ function JavaArray() {
 
   console.log(uniqueArray(numbersArray), "uniqueArray");
 
-  return <div>JS</div>;
+  return <div></div>;
 }
 
 export default JavaArray;
