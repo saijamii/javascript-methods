@@ -218,7 +218,7 @@ function ReduceMethod() {
 
   console.log(filterdObjects(), "filterdObjects");
 
-  return <div>ReduceMethod</div>;
+  return <div></div>;
 }
 
 export default ReduceMethod;
