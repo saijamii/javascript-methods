@@ -1,0 +1,424 @@
+{
+    "CustomData": [
+        {
+            "actualData": "Medium Bi-Pin",
+            "orgId": "d40eec05-f3d8-42f0-ba17-b9f1a5593f3d",
+            "dataType": "base",
+            "uniqueName": "Medium Bi-Pin"
+        },
+        {
+            "actualData": 120,
+            "orgId": "d40eec05-f3d8-42f0-ba17-b9f1a5593f3d",
+            "dataType": "voltage",
+            "uniqueName": "120"
+        },
+        {
+            "actualData": "G4",
+            "orgId": "d40eec05-f3d8-42f0-ba17-b9f1a5593f3d",
+            "dataType": "base",
+            "uniqueName": "G4"
+        },
+        {
+            "actualData": 900,
+            "orgId": "d40eec05-f3d8-42f0-ba17-b9f1a5593f3d",
+            "dataType": "wattage",
+            "uniqueName": "900"
+        },
+        {
+            "actualData": "EX39",
+            "orgId": "d40eec05-f3d8-42f0-ba17-b9f1a5593f3d",
+            "dataType": "base",
+            "uniqueName": "EX39"
+        },
+        {
+            "actualData": 50,
+            "orgId": "d40eec05-f3d8-42f0-ba17-b9f1a5593f3d",
+            "dataType": "voltage",
+            "uniqueName": "50"
+        },
+        {
+            "actualData": "E11",
+            "orgId": "d40eec05-f3d8-42f0-ba17-b9f1a5593f3d",
+            "dataType": "base",
+            "uniqueName": "E11"
+        },
+        {
+            "actualData": "GU4",
+            "orgId": "d40eec05-f3d8-42f0-ba17-b9f1a5593f3d",
+            "dataType": "base",
+            "uniqueName": "GU4"
+        },
+        {
+            "actualData": 40,
+            "orgId": "d40eec05-f3d8-42f0-ba17-b9f1a5593f3d",
+            "dataType": "voltage",
+            "uniqueName": "40"
+        },
+        {
+            "actualData": 90,
+            "orgId": "d40eec05-f3d8-42f0-ba17-b9f1a5593f3d",
+            "dataType": "voltage",
+            "uniqueName": "90"
+        },
+        {
+            "actualData": "R7s",
+            "orgId": "d40eec05-f3d8-42f0-ba17-b9f1a5593f3d",
+            "dataType": "base",
+            "uniqueName": "R7s"
+        },
+        {
+            "actualData": "DC BAY",
+            "orgId": "d40eec05-f3d8-42f0-ba17-b9f1a5593f3d",
+            "dataType": "base",
+            "uniqueName": "DC BAY"
+        },
+        {
+            "actualData": 8,
+            "orgId": "d40eec05-f3d8-42f0-ba17-b9f1a5593f3d",
+            "dataType": "wattage",
+            "uniqueName": "8"
+        },
+        {
+            "actualData": "Bayonet",
+            "orgId": "d40eec05-f3d8-42f0-ba17-b9f1a5593f3d",
+            "dataType": "base",
+            "uniqueName": "Bayonet"
+        },
+        {
+            "actualData": 9,
+            "orgId": "d40eec05-f3d8-42f0-ba17-b9f1a5593f3d",
+            "dataType": "wattage",
+            "uniqueName": "9"
+        },
+        {
+            "actualData": "Med Bi-Pin",
+            "orgId": "d40eec05-f3d8-42f0-ba17-b9f1a5593f3d",
+            "dataType": "base",
+            "uniqueName": "Med Bi-Pin"
+        },
+        {
+            "actualData": "G10Q",
+            "orgId": "d40eec05-f3d8-42f0-ba17-b9f1a5593f3d",
+            "dataType": "base",
+            "uniqueName": "G10Q"
+        },
+        {
+            "actualData": "GU5.3",
+            "orgId": "d40eec05-f3d8-42f0-ba17-b9f1a5593f3d",
+            "dataType": "base",
+            "uniqueName": "GU5.3"
+        },
+        {
+            "actualData": "y",
+            "orgId": "d40eec05-f3d8-42f0-ba17-b9f1a5593f3d",
+            "dataType": "dimmable",
+            "uniqueName": "y"
+        },
+        {
+            "actualData": 80,
+            "orgId": "d40eec05-f3d8-42f0-ba17-b9f1a5593f3d",
+            "dataType": "voltage",
+            "uniqueName": "80"
+        },
+        {
+            "actualData": 60,
+            "orgId": "d40eec05-f3d8-42f0-ba17-b9f1a5593f3d",
+            "dataType": "voltage",
+            "uniqueName": "60"
+        },
+        {
+            "actualData": "G9",
+            "orgId": "d40eec05-f3d8-42f0-ba17-b9f1a5593f3d",
+            "dataType": "base",
+            "uniqueName": "G9"
+        },
+        {
+            "actualData": 28,
+            "orgId": "d40eec05-f3d8-42f0-ba17-b9f1a5593f3d",
+            "dataType": "base",
+            "uniqueName": "28"
+        },
+        {
+            "actualData": "GY6.35",
+            "orgId": "d40eec05-f3d8-42f0-ba17-b9f1a5593f3d",
+            "dataType": "base",
+            "uniqueName": "GY6.35"
+        },
+        {
+            "actualData": "Yes",
+            "orgId": "d40eec05-f3d8-42f0-ba17-b9f1a5593f3d",
+            "dataType": "dimmable",
+            "uniqueName": "Yes"
+        },
+        {
+            "actualData": "R7S",
+            "orgId": "d40eec05-f3d8-42f0-ba17-b9f1a5593f3d",
+            "dataType": "base",
+            "uniqueName": "R7S"
+        },
+        {
+            "actualData": "E12",
+            "orgId": "d40eec05-f3d8-42f0-ba17-b9f1a5593f3d",
+            "dataType": "base",
+            "uniqueName": "E12"
+        },
+        {
+            "actualData": "Wedge",
+            "orgId": "d40eec05-f3d8-42f0-ba17-b9f1a5593f3d",
+            "dataType": "base",
+            "uniqueName": "Wedge"
+        },
+        {
+            "actualData": "GX5.3",
+            "orgId": "d40eec05-f3d8-42f0-ba17-b9f1a5593f3d",
+            "dataType": "base",
+            "uniqueName": "GX5.3"
+        },
+        {
+            "actualData": 600,
+            "orgId": "d40eec05-f3d8-42f0-ba17-b9f1a5593f3d",
+            "dataType": "wattage",
+            "uniqueName": "600"
+        },
+        {
+            "actualData": "Bi-Pin",
+            "orgId": "d40eec05-f3d8-42f0-ba17-b9f1a5593f3d",
+            "dataType": "base",
+            "uniqueName": "Bi-Pin"
+        },
+        {
+            "actualData": "G9 PIN BLADE",
+            "orgId": "d40eec05-f3d8-42f0-ba17-b9f1a5593f3d",
+            "dataType": "base",
+            "uniqueName": "G9 PIN BLADE"
+        },
+        {
+            "actualData": "500W",
+            "orgId": "d40eec05-f3d8-42f0-ba17-b9f1a5593f3d",
+            "dataType": "wattage",
+            "uniqueName": "500W"
+        },
+        {
+            "actualData": "GXG.3",
+            "orgId": "d40eec05-f3d8-42f0-ba17-b9f1a5593f3d",
+            "dataType": "base",
+            "uniqueName": "GXG.3"
+        },
+        {
+            "actualData": "E14",
+            "orgId": "d40eec05-f3d8-42f0-ba17-b9f1a5593f3d",
+            "dataType": "base",
+            "uniqueName": "E14"
+        },
+        {
+            "actualData": "BA15D",
+            "orgId": "d40eec05-f3d8-42f0-ba17-b9f1a5593f3d",
+            "dataType": "base",
+            "uniqueName": "BA15D"
+        },
+        {
+            "actualData": "Cadelabra",
+            "orgId": "d40eec05-f3d8-42f0-ba17-b9f1a5593f3d",
+            "dataType": "base",
+            "uniqueName": "Cadelabra"
+        },
+        {
+            "actualData": "Single Pin",
+            "orgId": "d40eec05-f3d8-42f0-ba17-b9f1a5593f3d",
+            "dataType": "base",
+            "uniqueName": "Single Pin"
+        },
+        {
+            "actualData": "BA15S",
+            "orgId": "d40eec05-f3d8-42f0-ba17-b9f1a5593f3d",
+            "dataType": "base",
+            "uniqueName": "BA15S"
+        },
+        {
+            "actualData": 100,
+            "orgId": "d40eec05-f3d8-42f0-ba17-b9f1a5593f3d",
+            "dataType": "voltage",
+            "uniqueName": "100"
+        },
+        {
+            "actualData": "Double Loop",
+            "orgId": "d40eec05-f3d8-42f0-ba17-b9f1a5593f3d",
+            "dataType": "base",
+            "uniqueName": "Double Loop"
+        },
+        {
+            "actualData": "GU10",
+            "orgId": "d40eec05-f3d8-42f0-ba17-b9f1a5593f3d",
+            "dataType": "base",
+            "uniqueName": "GU10"
+        },
+        {
+            "actualData": "/",
+            "orgId": "d40eec05-f3d8-42f0-ba17-b9f1a5593f3d",
+            "dataType": "dimmable",
+            "uniqueName": "/"
+        },
+        {
+            "actualData": "B11",
+            "orgId": "d40eec05-f3d8-42f0-ba17-b9f1a5593f3d",
+            "dataType": "base",
+            "uniqueName": "B11"
+        },
+        {
+            "actualData": "GU24",
+            "orgId": "d40eec05-f3d8-42f0-ba17-b9f1a5593f3d",
+            "dataType": "base",
+            "uniqueName": "GU24"
+        },
+        {
+            "actualData": "G8",
+            "orgId": "d40eec05-f3d8-42f0-ba17-b9f1a5593f3d",
+            "dataType": "base",
+            "uniqueName": "G8"
+        },
+        {
+            "actualData": "?",
+            "orgId": "d40eec05-f3d8-42f0-ba17-b9f1a5593f3d",
+            "dataType": "voltage",
+            "uniqueName": "?"
+        },
+        {
+            "actualData": "E26",
+            "orgId": "d40eec05-f3d8-42f0-ba17-b9f1a5593f3d",
+            "dataType": "base",
+            "uniqueName": "E26"
+        },
+        {
+            "actualData": "6.5",
+            "orgId": "d40eec05-f3d8-42f0-ba17-b9f1a5593f3d",
+            "dataType": "wattage",
+            "uniqueName": "6.5"
+        },
+        {
+            "actualData": 11,
+            "orgId": "d40eec05-f3d8-42f0-ba17-b9f1a5593f3d",
+            "dataType": "wattage",
+            "uniqueName": "11"
+        },
+        {
+            "actualData": "Y",
+            "orgId": "d40eec05-f3d8-42f0-ba17-b9f1a5593f3d",
+            "dataType": "dimmable",
+            "uniqueName": "Y"
+        },
+        {
+            "actualData": 20,
+            "orgId": "d40eec05-f3d8-42f0-ba17-b9f1a5593f3d",
+            "dataType": "voltage",
+            "uniqueName": "20"
+        },
+        {
+            "actualData": 45,
+            "orgId": "d40eec05-f3d8-42f0-ba17-b9f1a5593f3d",
+            "dataType": "voltage",
+            "uniqueName": "45"
+        },
+        {
+            "actualData": 8000,
+            "orgId": "d40eec05-f3d8-42f0-ba17-b9f1a5593f3d",
+            "dataType": "wattage",
+            "uniqueName": "8000"
+        },
+        {
+            "actualData": "GY6",
+            "orgId": "d40eec05-f3d8-42f0-ba17-b9f1a5593f3d",
+            "dataType": "base",
+            "uniqueName": "GY6"
+        },
+        {
+            "actualData": 12,
+            "orgId": "d40eec05-f3d8-42f0-ba17-b9f1a5593f3d",
+            "dataType": "wattage",
+            "uniqueName": "12"
+        },
+        {
+            "actualData": "T5",
+            "orgId": "d40eec05-f3d8-42f0-ba17-b9f1a5593f3d",
+            "dataType": "base",
+            "uniqueName": "T5"
+        },
+        {
+            "actualData": 10,
+            "orgId": "d40eec05-f3d8-42f0-ba17-b9f1a5593f3d",
+            "dataType": "wattage",
+            "uniqueName": "10"
+        },
+        {
+            "actualData": "E17",
+            "orgId": "d40eec05-f3d8-42f0-ba17-b9f1a5593f3d",
+            "dataType": "base",
+            "uniqueName": "E17"
+        },
+        {
+            "actualData": "E39",
+            "orgId": "d40eec05-f3d8-42f0-ba17-b9f1a5593f3d",
+            "dataType": "base",
+            "uniqueName": "E39"
+        },
+        {
+            "actualData": "N",
+            "orgId": "d40eec05-f3d8-42f0-ba17-b9f1a5593f3d",
+            "dataType": "dimmable",
+            "uniqueName": "N"
+        },
+        {
+            "actualData": 15,
+            "orgId": "d40eec05-f3d8-42f0-ba17-b9f1a5593f3d",
+            "dataType": "wattage",
+            "uniqueName": "15"
+        },
+        {
+            "actualData": " ",
+            "orgId": "d40eec05-f3d8-42f0-ba17-b9f1a5593f3d",
+            "dataType": "base",
+            "uniqueName": " "
+        },
+        {
+            "actualData": 14,
+            "orgId": "d40eec05-f3d8-42f0-ba17-b9f1a5593f3d",
+            "dataType": "wattage",
+            "uniqueName": "14"
+        },
+        {
+            "actualData": "GY8",
+            "orgId": "d40eec05-f3d8-42f0-ba17-b9f1a5593f3d",
+            "dataType": "base",
+            "uniqueName": "GY8"
+        },
+        {
+            "actualData": "yes",
+            "orgId": "d40eec05-f3d8-42f0-ba17-b9f1a5593f3d",
+            "dataType": "dimmable",
+            "uniqueName": "yes"
+        },
+        {
+            "actualData": "Screw Terminal",
+            "orgId": "d40eec05-f3d8-42f0-ba17-b9f1a5593f3d",
+            "dataType": "base",
+            "uniqueName": "Screw Terminal"
+        },
+        {
+            "actualData": "10.5",
+            "orgId": "d40eec05-f3d8-42f0-ba17-b9f1a5593f3d",
+            "dataType": "wattage",
+            "uniqueName": "10.5"
+        },
+        {
+            "actualData": "G10Q 4-Pin",
+            "orgId": "d40eec05-f3d8-42f0-ba17-b9f1a5593f3d",
+            "dataType": "base",
+            "uniqueName": "G10Q 4-Pin"
+        },
+        {
+            "actualData": "NO",
+            "orgId": "d40eec05-f3d8-42f0-ba17-b9f1a5593f3d",
+            "dataType": "dimmable",
+            "uniqueName": "NO"
+        }
+    ]
+}
