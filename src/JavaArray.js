@@ -1,6 +1,6 @@
 import React from "react";
 
-import users from "./users.json";
+import users from "./JSON/users.json";
 
 const allUsers = users?.users;
 
