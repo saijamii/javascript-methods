@@ -22,6 +22,35 @@ function Response() {
 
   console.log(view, "view");
   console.log(filterArray, "filterArray");
+
+  const aob = [
+    { framework: "React", website: "Paypal" },
+    { framework: "JavaScript", website: "inblack67" },
+    { framework: "Angular", website: "Google" },
+    { framework: "Vue", website: "Vue" },
+    { framework: "React", website: "Tesla" },
+    { framework: "JavaScript", website: "inblack67" },
+    { framework: "fb", website: "inblack67" },
+  ];
+
+  const countFrameworks = () => {
+    const countMap = {};
+
+    aob.forEach((item) => {
+      const { framework } = item;
+      countMap[framework] = (countMap[framework] || 0) + 1;
+    });
+
+    const result = Object.entries(countMap)?.map(([language, count]) => ({
+      language,
+      count,
+    }));
+
+    return result;
+  };
+
+  console.log(countFrameworks(), "count");
+
   return <div>Response</div>;
 }
 
