@@ -3,6 +3,7 @@ import "./App.css";
 import ReduceMethod from "./ReduceMethod";
 import JavaArray from "./JavaArray";
 import Response from "./Response";
+import Prac from "./Prac";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <ReduceMethod />
         <JavaArray />
         <Response />
+        <Prac />
       </header>
     </div>
   );
