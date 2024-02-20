@@ -1,6 +1,6 @@
 import React from "react";
 
-import users from "./users.json";
+import users from "./JSON/users.json";
 
 const allUsers = users?.users;
 
@@ -25,7 +25,7 @@ function JavaArray() {
     return user;
   };
 
-  console.log(isNameExist("Terrill"), "isNameExist");
+  console.log(isNameExist("SAi"), "isNameExist");
 
   const array1 = [1, 2, 3];
 
@@ -79,14 +79,14 @@ function JavaArray() {
     }, []);
   }
 
-  const numbersArray = [1, 2, 5, 2, 3, 5, 6, 7, 8];
+  const numbersArray = [1, 2, 5, 2, 3, 5, 6, 7, 8, 10, 10];
 
   console.log(uniqueArray(numbersArray), "uniqueArray");
 
   const reverseString = (inputString) => {
     return inputString.split("").reverse().join("");
   };
-  
+
   const originalString = "Hello, World!";
   const reversedString = reverseString(originalString);
 

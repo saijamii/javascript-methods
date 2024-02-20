@@ -85,19 +85,28 @@ function ReduceMethod() {
 
     const ali = invetory.reduce(
       (accumulator, value) => {
-        const productNumber = value?.productNumber;
+        const productNumber =
+          value?.LACategory !== null &&
+          value?.LACategory !== "" &&
+          value?.LACategory !== undefined
+            ? value?.LACategory
+            : undefined;
 
-        if (accumulator.uniqueProductNumbers.includes(productNumber)) {
-          accumulator.duplicateProductNumbers.push(productNumber);
-        } else {
-          accumulator.uniqueProductNumbers.push(productNumber);
+        if (productNumber !== undefined) {
+          if (accumulator.uniqueProductNumbers.includes(productNumber)) {
+            accumulator.duplicateProductNumbers.push(productNumber);
+          } else {
+            accumulator.uniqueProductNumbers.push(productNumber);
+          }
         }
 
         return accumulator;
       },
       { uniqueProductNumbers: [], duplicateProductNumbers: [] }
     );
-    console.log(ali.uniqueProductNumbers, "alll");
+
+    console.log(ali.uniqueProductNumbers, "uniqueProductNumbers");
+    console.log(ali.duplicateProductNumbers, "duplicateProductNumbers");
   };
 
   console.log(findDuplicateProductNumbers(), "findDuplicateProductNumbers");
@@ -172,13 +181,13 @@ function ReduceMethod() {
     [7, 8, 9],
   ];
 
-  const flatedArray = () => {
-    return data?.reduce((total, value, index, array) => {
-      return total.concat(value);
-    }, []);
-  };
+  const flatedArray = data.reduce((total, value) => {
+    return total.concat(value);
+  }, []);
 
-  console.log(flatedArray(), "flatedArray");
+  const uniqueValues = [...new Set(flatedArray)];
+
+  console.log(uniqueValues, "uniqueValues");
 
   const dataObjects = [
     { a: "happy", b: "robin", c: ["blue", "green"] },
@@ -222,3 +231,5 @@ function ReduceMethod() {
 }
 
 export default ReduceMethod;
+
+
