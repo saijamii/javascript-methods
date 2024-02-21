@@ -85,15 +85,15 @@ function Response() {
     isRangeForm: true,
   };
 
-  const CustomValues = {
-    selectedBrand: "AFX Lighting",
-    selectedCategory: "12V Landscape",
-    selectedStorageLoc: "101D",
-    base: ["E12", "Med Bi-Pin"],
-    dimmable: ["Yes", "Y"],
-    voltage: ["120"],
-    isRangeForm: true,
-  };
+  // const CustomValues = {
+  //   selectedBrand: "AFX Lighting",
+  //   selectedCategory: "12V Landscape",
+  //   selectedStorageLoc: "101D",
+  //   base: ["E12", "Med Bi-Pin"],
+  //   dimmable: ["Yes", "Y"],
+  //   voltage: ["120"],
+  //   isRangeForm: true,
+  // };
 
   rangeFilteredObject = Object.fromEntries(
     Object.entries(RangeValues)
