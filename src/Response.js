@@ -54,7 +54,7 @@ function Response() {
 
   console.log(countFrameworks(), "count");
 
-  let customFilteredObject = {};
+  let rangeFilteredObject = {};
 
   const convertedCustomFields = () => {
     let convertedData = [];
@@ -85,19 +85,26 @@ function Response() {
     isRangeForm: true,
   };
 
-  const CustomValues = {
-    selectedBrand: "AFX Lighting",
-    selectedCategory: "12V Landscape",
-    selectedStorageLoc: "101D",
-    base: ["E12", "Med Bi-Pin"],
-    dimmable: ["Yes", "Y"],
-    voltage: ["120"],
-    isRangeForm: true,
-  };
+  // const CustomValues = {
+  //   selectedBrand: "AFX Lighting",
+  //   selectedCategory: "12V Landscape",
+  //   selectedStorageLoc: "101D",
+  //   base: ["E12", "Med Bi-Pin"],
+  //   dimmable: ["Yes", "Y"],
+  //   voltage: ["120"],
+  //   isRangeForm: true,
+  // };
 
-  customFilteredObject = Object.fromEntries(Object.entries(CustomValues));
-  console.log(RangeValues, "RangeValues");
-  console.log(customFilteredObject, "customFilteredObject");
+  rangeFilteredObject = Object.fromEntries(
+    Object.entries(RangeValues)
+      ?.filter(([key, value]) => key.includes("range_") && value !== undefined)
+      ?.map(([key, value]) => [
+        key.replace("range_", ""),
+        value.map((e) => parseInt(e)),
+      ])
+  );
+
+  console.log(rangeFilteredObject, "rangeFilteredObject");
 
   return <div>Response</div>;
 }
