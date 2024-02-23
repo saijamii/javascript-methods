@@ -14,22 +14,25 @@ function Call() {
   let User2 = {
     name: "B",
     age: 30,
-    printDetails: function () {
-      console.log(this.name);
-    },
+    // printDetails: function () {
+    //   console.log(this.name);
+    // },
   };
 
-  User2.printDetails();
+  // User2.printDetails();
 
   let User3 = {
     name: "C",
     age: 40,
-    printDetails: function () {
-      console.log(this.name);
-    },
+    // printDetails: function () {
+    //   console.log(this.name);
+    // },
   };
 
-  User3.printDetails();
+  // User3.printDetails();
+
+  User2.printDetails.call(User2);
+  User3.printDetails.call(User3);
 
   return <div>call</div>;
 }
