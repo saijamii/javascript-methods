@@ -60,6 +60,8 @@ function Call() {
 
   const getBindAge = getAge.bind(User4);
   console.log(getBindAge());
+
+  return <div>call</div>;
 }
 
 export default Call;
