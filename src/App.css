@@ -18,7 +18,7 @@
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo-rev {
-    animation: App-logo-spin alternate-reverse 40s linear;
+    animation: App-logo-spin infinite 40s alternate-reverse !important;
   }
 }
 
