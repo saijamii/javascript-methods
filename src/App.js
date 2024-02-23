@@ -13,10 +13,10 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <img src={logo} className="App-logo-rev" alt="logo" />
         <p>{/* Edit <code>src/App.js</code> and save to reload. */}</p>
-        {/* <ReduceMethod /> */}
-        {/* <JavaArray /> */}
-        {/* <Response /> */}
-        {/* <Prac /> */}
+        <ReduceMethod />
+        <JavaArray />
+        <Response />
+        <Prac />
         <Call />
       </header>
     </div>
