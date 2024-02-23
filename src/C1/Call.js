@@ -47,7 +47,19 @@ function Call() {
   details2.apply(User2, ["23", "02", "2024"]);
   details2.apply(User3, ["24", "03", "2025"]);
 
-  return <div>call</div>;
+  const User4 = {
+    name: "Sai",
+    age: 1000,
+    printDetails: function () {
+      console.log(this?.name);
+    },
+  };
+
+  const getAge = User4.printDetails;
+  console.log(getAge());
+
+  const getBindAge = getAge.bind(User4);
+  console.log(getBindAge());
 }
 
 export default Call;
