@@ -11,6 +11,10 @@ function Call() {
 
   User.printDetails();
 
+  let details = function (date, month) {
+    console.log(this.name + " " + date + " " + month);
+  };
+
   let User2 = {
     name: "B",
     age: 30,
@@ -33,6 +37,9 @@ function Call() {
 
   User.printDetails.call(User2);
   User.printDetails.call(User3);
+
+  details.call(User2, "23", "02");
+  details.call(User3, "24", "03");
 
   return <div>call</div>;
 }
