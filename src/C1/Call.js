@@ -14,6 +14,9 @@ function Call() {
   let details = function (date, month) {
     console.log(this.name + " " + date + " " + month);
   };
+  let details2 = function (date, month, year) {
+    console.log(this.name + " " + date + " " + month + " " + year);
+  };
 
   let User2 = {
     name: "B",
@@ -40,6 +43,9 @@ function Call() {
 
   details.call(User2, "23", "02");
   details.call(User3, "24", "03");
+
+  details2.apply(User2, ["23", "02", "2024"]);
+  details2.apply(User3, ["24", "03", "2025"]);
 
   return <div>call</div>;
 }
