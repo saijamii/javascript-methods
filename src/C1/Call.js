@@ -31,8 +31,8 @@ function Call() {
 
   // User3.printDetails();
 
-  User2.printDetails.call(User2);
-  User3.printDetails.call(User3);
+  User.printDetails.call(User2);
+  User.printDetails.call(User3);
 
   return <div>call</div>;
 }
