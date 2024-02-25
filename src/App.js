@@ -5,6 +5,7 @@ import JavaArray from "./JavaArray";
 import Response from "./Response";
 import Prac from "./Prac";
 import Call from "./C1/Call";
+import Classes from "./C1/Classes";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Response />
         <Prac />
         <Call />
+        <Classes />
       </header>
     </div>
   );
