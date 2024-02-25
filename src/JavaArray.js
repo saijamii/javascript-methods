@@ -93,6 +93,21 @@ function JavaArray() {
   console.log("Original: " + originalString);
   console.log("Reversed: " + reversedString);
 
+  const findMissingNumber = (array) => {
+    let uniquevalues = [...new Set(array)];
+    const sortedArray = [...uniquevalues].sort((a, b) => a - b);
+
+    for (let i = 0; i < sortedArray.length - 1; i++) {
+      if (sortedArray[i + 1] - sortedArray[i] !== 1) {
+        return sortedArray[i] + 1;
+      }
+    }
+    return undefined;
+  };
+
+  const numbers = [1, 2, 3, 5, 6, 7, 9, 9, 4];
+  console.log("Missing number:", findMissingNumber(numbers)); // Output: undefined
+
   return <div></div>;
 }
 
