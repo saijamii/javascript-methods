@@ -6,6 +6,7 @@ import Response from "./Response";
 import Prac from "./Prac";
 import Call from "./C1/Call";
 import Classes from "./C1/Classes";
+import { Promisese1, Promisese2 } from "./C1/Promisese";
 
 function App() {
   return (
@@ -14,12 +15,14 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         {/* <img src={logo} className="App-logo-rev" alt="logo" /> */}
         <p>{/* Edit <code>src/App.js</code> and save to reload. */}</p>
-        <ReduceMethod />
-        <JavaArray />
-        <Response />
+        {/* <ReduceMethod /> */}
+        {/* <JavaArray /> */}
+        {/* <Response /> */}
         <Prac />
-        <Call />
-        <Classes />
+        {/* <Call /> */}
+        {/* <Classes /> */}
+        <Promisese1 />
+        <Promisese2 />
       </header>
     </div>
   );
