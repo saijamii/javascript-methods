@@ -1,8 +1,27 @@
-import React from "react";
-
 export const Promisese1 = () => {
-  return <div>Promisese1</div>;
-};
-export const Promisese2 = () => {
-  return <div>Promisese2</div>;
+  let Fruits = ["Apple", "Mango", "Grapes"];
+
+  const getFruits = () => {
+    Fruits?.map((e) => {
+      return console.log(e);
+    });
+  };
+
+  const postFruits = (value) => {
+    return new Promise((resolve, reject) => {
+      setTimeout(() => {
+        Fruits.push(value);
+        let err = false;
+        if (!err) {
+          resolve();
+        } else {
+          reject("Something Went Wrong");
+        }
+      }, 2000);
+    });
+  };
+
+  postFruits("Kiwi")
+    .then(getFruits)
+    .catch((err) => console.error(err));
 };
