@@ -26,34 +26,36 @@ export const Promisese1 = () => {
     .catch((err) => console.error(err));
 };
 
-export const AsyncOperation = () => {
-  return new Promise((resolve, reject) => {
-    setTimeout(() => {
-      resolve("Data1");
-    }, 1000);
-  });
-};
+export const Promisese2 = () => {
+  const AsyncOperation = () => {
+    return new Promise((resolve, reject) => {
+      setTimeout(() => {
+        resolve("Data1");
+      }, 1000);
+    });
+  };
 
-AsyncOperation()
-  .then((data) => {
-    console.log("Step 1:", data);
-    return new Promise((resolve) => {
-      setTimeout(() => {
-        resolve("Data 2");
-      }, 1500);
+  AsyncOperation()
+    .then((data) => {
+      console.log("Step 1:", data);
+      return new Promise((resolve) => {
+        setTimeout(() => {
+          resolve("Data 2");
+        }, 1500);
+      });
+    })
+    .then((data) => {
+      console.log("Step 2:", data);
+      return new Promise((resolve) => {
+        setTimeout(() => {
+          resolve("Data 3");
+        }, 2000);
+      });
+    })
+    .then((data) => {
+      console.log("Step 3:", data);
+    })
+    .catch((error) => {
+      console.error("Error:", error);
     });
-  })
-  .then((data) => {
-    console.log("Step 2:", data);
-    return new Promise((resolve) => {
-      setTimeout(() => {
-        resolve("Data 3");
-      }, 2000);
-    });
-  })
-  .then((data) => {
-    console.log("Step 3:", data);
-  })
-  .catch((error) => {
-    console.error("Error:", error);
-  });
+};
