@@ -9,6 +9,8 @@ import Classes from "./C1/Classes";
 import { Promisese1, Promisese2 } from "./C1/Promise";
 
 function App() {
+  const appVersion = "v01.03.24.02";
+  console.log(appVersion, "appVersion");
   return (
     <div className="App">
       <header className="App-header">
