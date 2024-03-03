@@ -6,7 +6,7 @@ import Response from "./Response";
 import Prac from "./Prac";
 import Call from "./C1/Call";
 import Classes from "./C1/Classes";
-import { AsyncOperation, Promisese1 } from "./C1/Promise";
+import { Promisese1, Promisese2 } from "./C1/Promise";
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
         <Call />
         <Classes /> */}
         <Promisese1 />
-        <AsyncOperation />
+        <Promisese2 />
       </header>
     </div>
   );
