@@ -4,8 +4,6 @@ import users from "./JSON/users.json";
 
 const allUsers = users?.users;
 
-console.log(allUsers, "allUsers");
-
 function JavaArray() {
   // Find
   //   const isNameExist = (name, allUsers) => {
