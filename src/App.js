@@ -13,12 +13,12 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        {/* <ReduceMethod />
+        <ReduceMethod />
         <JavaArray />
         <Response />
         <Prac />
         <Call />
-        <Classes /> */}
+        <Classes />
         <Promisese1 />
         <Promisese2 />
       </header>
