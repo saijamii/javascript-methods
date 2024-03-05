@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { CUseCallBack } from "./CUseCallBack";
+import CUseCallBack from "./CUseCallBack";
 
 export function PUseCallBack() {
   const [countOne, setCountOne] = useState(0);
