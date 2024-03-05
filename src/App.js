@@ -8,7 +8,7 @@ import Call from "./C1/Call";
 import Classes from "./C1/Classes";
 import { Promisese1, Promisese2 } from "./C1/Promise";
 import { Counter } from "./R1/RUseReducer";
-import { MyUseMemo1, MyUseMemo2 } from "./R1/RUseMemo";
+import { MyUseMemo1, MyUseMemo2, MyUseMemo3 } from "./R1/RUseMemo";
 
 function App() {
   const appVersion = "v01.03.24.02";
@@ -28,6 +28,7 @@ function App() {
         <Counter />
         <MyUseMemo1 a={10} b={80} />
         <MyUseMemo2 />
+        <MyUseMemo3 />
       </header>
     </div>
   );
