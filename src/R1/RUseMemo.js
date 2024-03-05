@@ -38,6 +38,19 @@ export const MyUseMemo3 = () => {
     setCountTwo(countTwo + 1);
   };
 
+  // const isEven = () => {
+  //   let i = 0;
+  //   while (i < 2000000000) i++;
+  //   return countOne % 2 === 0;
+  // };
+
+  const isEven = useMemo(() => {
+    console.log("*********");
+    let i = 0;
+    while (i < 2000000000) i++;
+    return countOne % 2 === 0;
+  }, [countOne]);
+
   return (
     <div>
       <button
@@ -47,6 +60,7 @@ export const MyUseMemo3 = () => {
       >
         Button {countOne}
       </button>
+      <span>{isEven ? "Even" : "Odd"}</span>
       <button
         onClick={() => {
           IncrementTwo();
