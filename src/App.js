@@ -9,6 +9,7 @@ import Classes from "./C1/Classes";
 import { Promisese1, Promisese2 } from "./C1/Promise";
 import { Counter } from "./R1/RUseReducer";
 import { MyUseMemo1, MyUseMemo2, MyUseMemo3 } from "./R1/RUseMemo";
+import { PUseCallBack } from "./R1/PUseCallBack";
 
 function App() {
   const appVersion = "v05.03.24.02";
@@ -29,6 +30,7 @@ function App() {
         <MyUseMemo1 a={10} b={80} />
         <MyUseMemo2 />
         <MyUseMemo3 />
+        <PUseCallBack />
       </header>
     </div>
   );
