@@ -11,7 +11,7 @@ import { Counter } from "./R1/RUseReducer";
 import { MyUseMemo1, MyUseMemo2, MyUseMemo3 } from "./R1/RUseMemo";
 
 function App() {
-  const appVersion = "v01.03.24.02";
+  const appVersion = "v05.03.24.02";
   console.log(appVersion, "appVersion");
   return (
     <div className="App">
