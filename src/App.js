@@ -7,6 +7,7 @@ import Prac from "./Prac";
 import Call from "./C1/Call";
 import Classes from "./C1/Classes";
 import { Promisese1, Promisese2 } from "./C1/Promise";
+import { Counter } from "./R1/RUseReducer";
 
 function App() {
   const appVersion = "v01.03.24.02";
@@ -23,6 +24,7 @@ function App() {
         <Classes />
         <Promisese1 />
         <Promisese2 />
+        <Counter />
       </header>
     </div>
   );
