@@ -26,3 +26,34 @@ export const MyUseMemo2 = () => {
 const expensiveFunction = (value) => {
   return value * 2;
 };
+
+export const MyUseMemo3 = () => {
+  const [countOne, setCountOne] = useState(0);
+  const [countTwo, setCountTwo] = useState(0);
+
+  const IncrementOne = () => {
+    setCountOne(countOne + 1);
+  };
+  const IncrementTwo = () => {
+    setCountTwo(countTwo + 1);
+  };
+
+  return (
+    <div>
+      <button
+        onClick={() => {
+          IncrementOne();
+        }}
+      >
+        Button {countOne}
+      </button>
+      <button
+        onClick={() => {
+          IncrementTwo();
+        }}
+      >
+        Button {countTwo}
+      </button>
+    </div>
+  );
+};
