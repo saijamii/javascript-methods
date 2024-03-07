@@ -12,7 +12,7 @@ import { MyUseMemo1, MyUseMemo2, MyUseMemo3 } from "./R1/RUseMemo";
 import { PUseCallBack } from "./R1/PUseCallBack";
 
 function App() {
-  const appVersion = "v05.03.24.02";
+  const appVersion = "v07.03.24.02";
   console.log(appVersion, "appVersion");
   return (
     <div className="App">
