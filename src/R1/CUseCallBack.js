@@ -1,6 +1,7 @@
 import React, { memo } from "react";
 
-const CUseCallBack = () => {
+const CUseCallBack = ({ countTwo }) => {
+  console.log(countTwo,"countTwo");
   console.log("Child Rendered!!!");
   return <div>CUseCallBack</div>;
 };
