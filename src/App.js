@@ -7,8 +7,13 @@ import Prac from "./Prac";
 import Call from "./C1/Call";
 import Classes from "./C1/Classes";
 import { Promisese1, Promisese2 } from "./C1/Promise";
+import { Counter } from "./R1/RUseReducer";
+import { MyUseMemo1, MyUseMemo2, MyUseMemo3 } from "./R1/RUseMemo";
+import { PUseCallBack } from "./R1/PUseCallBack";
 
 function App() {
+  const appVersion = "v07.03.24.02";
+  console.log(appVersion, "appVersion");
   return (
     <div className="App">
       <header className="App-header">
@@ -21,6 +26,11 @@ function App() {
         <Classes />
         <Promisese1 />
         <Promisese2 />
+        <Counter />
+        <MyUseMemo1 a={10} b={80} />
+        <MyUseMemo2 />
+        <MyUseMemo3 />
+        <PUseCallBack />
       </header>
     </div>
   );
