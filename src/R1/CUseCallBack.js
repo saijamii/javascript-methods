@@ -1,8 +1,8 @@
 import React, { memo } from "react";
 
-const CUseCallBack = memo(() => {
+const CUseCallBack = () => {
   console.log("Child Rendered!!!");
   return <div>CUseCallBack</div>;
-});
+};
 
-export default CUseCallBack;
+export default memo(CUseCallBack);
