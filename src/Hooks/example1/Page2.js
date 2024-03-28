@@ -1,5 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 
 export default function Page2() {
-  return <div>Page2</div>;
+  const [count, setCount] = useState(0);
+  return (
+    <div>
+      <button
+        onClick={() => {
+          setCount(count + 1);
+        }}
+      >
+        Count -- {count}
+      </button>
+    </div>
+  );
 }
