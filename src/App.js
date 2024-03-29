@@ -12,6 +12,8 @@ import { MyUseMemo1, MyUseMemo2, MyUseMemo3 } from "./R1/RUseMemo";
 import { PUseCallBack } from "./R1/PUseCallBack";
 import Comp1 from "./Hooks/Exp1/Comp1";
 import Comp2 from "./Hooks/Exp1/Comp2";
+import Counter1 from "./Hooks/Exp2/Counter1";
+import Counter2 from "./Hooks/Exp2/Counter2";
 
 function App() {
   const appVersion = "v29.03.24.02";
@@ -33,9 +35,9 @@ function App() {
         <MyUseMemo2 />
         <MyUseMemo3 />
         <PUseCallBack /> */}
-        <Comp1 />
+        <Counter1 />
         <br />
-        <Comp2 />
+        <Counter2 />
       </header>
     </div>
   );
