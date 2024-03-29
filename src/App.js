@@ -14,7 +14,7 @@ import Comp1 from "./Hooks/Exp1/Comp1";
 import Comp2 from "./Hooks/Exp1/Comp2";
 
 function App() {
-  const appVersion = "v07.03.24.02";
+  const appVersion = "v29.03.24.02";
   console.log(appVersion, "appVersion");
   return (
     <div className="App">
