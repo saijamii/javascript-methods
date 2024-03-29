@@ -18,7 +18,7 @@ import Api1 from "./Hooks/Exp3/Api1";
 import Api2 from "./Hooks/Exp3/Api2";
 
 function App() {
-  const appVersion = "v29.03.24.02";
+  const appVersion = "v29.03.24.04";
   console.log(appVersion, "appVersion");
   return (
     <div className="App">
