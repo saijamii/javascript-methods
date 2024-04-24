@@ -14,8 +14,9 @@ import "./App.css";
 // import Comp2 from "./Hooks/Exp1/Comp2";
 // import Counter1 from "./Hooks/Exp2/Counter1";
 // import Counter2 from "./Hooks/Exp2/Counter2";
-import Api1 from "./Hooks/Exp3/Api1";
-import Api2 from "./Hooks/Exp3/Api2";
+// import Api1 from "./Hooks/Exp3/Api1";
+// import Api2 from "./Hooks/Exp3/Api2";
+import Test from "./Test";
 
 function App() {
   const appVersion = "v29.03.24.04";
@@ -37,9 +38,10 @@ function App() {
         <MyUseMemo2 />
         <MyUseMemo3 />
         <PUseCallBack /> */}
-        <Api1 />
+        {/* <Api1 />
         <br />
-        <Api2 />
+        <Api2 /> */}
+        <Test/>
       </header>
     </div>
   );
